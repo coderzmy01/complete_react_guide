@@ -1,7 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.less';
+import '@/index.less';
 const root = ReactDOM.createRoot(document.getElementById('root'));
+fetch('/jian/subscriptions/recommended_collections')
+  .then(res => res.json())
+  .then(res => {
+    console.log(res);
+  });
 root.render(
   <React.StrictMode>
     <div>数字浙江</div>
