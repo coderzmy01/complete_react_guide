@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import '@/index.less';
-import DemoThree from './views/DemoThree';
+import Demo from './views/DemoFour';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
     <div>数字浙江</div>
-    <DemoThree />
+    <Demo />
   </React.StrictMode>
 );
 
